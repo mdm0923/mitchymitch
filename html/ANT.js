@@ -434,7 +434,7 @@ function PracInstruct2RoutineEachFrame() {
   }
   continueRoutine = false;// reverts to True if at least one component still running
   for (const thisComponent of PracInstruct2Components)
-    if ('status' in thisComponent && thisComponent.status != PsychoJS.Status.FINISHED) {
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
       break;
     }
@@ -595,7 +595,7 @@ function fixationRoutineBegin() {
   }
   
   while(i<=1.6) {
-      durations.push(i)
+      durations.push(i);
       i = i + step;
   }
   
@@ -642,7 +642,7 @@ function fixationRoutineEachFrame() {
   }
   continueRoutine = false;// reverts to True if at least one component still running
   for (const thisComponent of fixationComponents)
-    if ('status' in thisComponent && thisComponent.status != PsychoJS.Status.FINISHED) {
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
       break;
     }
@@ -896,7 +896,7 @@ function feedbackRoutineEachFrame() {
   }
   continueRoutine = false;// reverts to True if at least one component still running
   for (const thisComponent of feedbackComponents)
-    if ('status' in thisComponent && thisComponent.status != PsychoJS.Status.FINISHED) {
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
       break;
     }
