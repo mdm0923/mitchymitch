@@ -1,0 +1,8 @@
+fixDuration,resp.keys,resp.corr,resp.rt,pracLoop.thisRepN,pracLoop.thisTrialN,pracLoop.thisN,pracLoop.thisIndex,pracLoop.ran,pracLoop.order,cue,tar,corrAns,targOrientation,participant,session,date,expName,psychopyVersion,frameRate,instResp.keys,instResp.rt,blockLoop.thisRepN,blockLoop.thisTrialN,blockLoop.thisN,blockLoop.thisIndex,blockLoop.ran,blockLoop.order,mainLoop.thisRepN,mainLoop.thisTrialN,mainLoop.thisN,mainLoop.thisIndex,mainLoop.ran,mainLoop.order
+1.2,,0,,1,0,3,1,1,2,stim/both.png,stim/congLeft.png,left,0,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+0.7,,0,,1,0,3,2,1,2,stim/centre.png,stim/congLeft.png,left,0,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+0.75,left,1,0.43,1,0,3,0,1,2,stim/upper.png,stim/congLeft.png,left,0,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+0.4,right,1,1.182,,,,,,,stim/both.png,stim/neutralLeft.png,right,180,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,space,1.291,3,0,3,0,1,2,2,0,96,37,1,95
+0.95,left,0,0.347,,,,,,,stim/blank.png,stim/incongRight.png,right,0,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,27,1,95
+0.6,right,1,0.879,,,,,,,stim/both.png,stim/incongLeft.png,right,180,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,21,1,95
+1,right,1,0.996,,,,,,,stim/both.png,stim/incongRight.png,right,0,8,001,2019-01-09_16h34.29.655,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,25,1,95

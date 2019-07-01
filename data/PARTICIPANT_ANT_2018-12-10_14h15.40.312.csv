@@ -1,0 +1,11 @@
+fixDuration, resp.keys, resp.corr, resp.rt, pracLoop.thisRepN, pracLoop.thisTrialN, pracLoop.thisN, pracLoop.thisIndex, pracLoop.ran, pracLoop.order, cue, tar, corrAns, targOrientation, participant, session, date, expName, psychopyVersion, frameRate
+1.1000000000000005, right, 1, 1.0620000000000003, 1, 0, 48, 41, 1, 47, stim/both.png, stim/neutralRight.png, right, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.9000000000000004, right, 1, 1.0799999999999992, 1, 0, 48, 37, 1, 47, stim/both.png, stim/neutralLeft.png, right, 180, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+1.0500000000000005, right, 1, 1.1850000000000005, 1, 0, 48, 27, 1, 47, stim/blank.png, stim/incongRight.png, right, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.8500000000000003, left, 1, 1.0489999999999995, 1, 0, 48, 17, 1, 47, stim/both.png, stim/incongLeft.png, left, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.4, right, 0, 0.9510000000000005, 1, 0, 48, 0, 1, 47, stim/upper.png, stim/congLeft.png, left, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.4, left, 0, 1.0809999999999995, 1, 0, 48, 8, 1, 47, stim/upper.png, stim/congRight.png, right, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.4, right, 1, 1.0470000000000006, 1, 0, 48, 6, 1, 47, stim/centre.png, stim/congLeft.png, right, 180, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+0.9000000000000004, left, 1, 0.8990000000000009, 1, 0, 48, 33, 1, 47, stim/both.png, stim/neutralLeft.png, left, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+1.2500000000000007, left, 0, 0.5139999999999993, 1, 0, 48, 5, 1, 47, stim/both.png, stim/congLeft.png, right, 180, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60
+1.0500000000000005, left, 1, 0.5140000000000029, 1, 0, 48, 3, 1, 47, stim/blank.png, stim/congLeft.png, left, 0, , 001, 2018-12-10_14h15.40.312, ANT, 3.0.0b12, 60

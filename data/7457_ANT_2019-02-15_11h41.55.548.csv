@@ -1,0 +1,13 @@
+fixDuration,resp.keys,resp.corr,resp.rt,pracLoop.thisRepN,pracLoop.thisTrialN,pracLoop.thisN,pracLoop.thisIndex,pracLoop.ran,pracLoop.order,cue,tar,corrAns,targOrientation,participant,session,date,expName,psychopyVersion,frameRate,instResp.keys,instResp.rt,blockLoop.thisRepN,blockLoop.thisTrialN,blockLoop.thisN,blockLoop.thisIndex,blockLoop.ran,blockLoop.order,mainLoop.thisRepN,mainLoop.thisTrialN,mainLoop.thisN,mainLoop.thisIndex,mainLoop.ran,mainLoop.order
+1.5,left,1,0.663,1,0,3,0,1,2,stim/upper.png,stim/congLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+1.1,left,1,0.481,1,0,3,1,1,2,stim/both.png,stim/congLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+0.65,left,1,0.363,1,0,3,2,1,2,stim/centre.png,stim/congLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,,,,,,,,,,,,
+1,left,1,0.43,,,,,,,stim/both.png,stim/congLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,space,3.396,3,0,3,0,1,2,2,0,96,1,1,95
+0.75,right,1,0.513,,,,,,,stim/blank.png,stim/neutralRight.png,right,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,43,1,95
+0.85,left,0,0.381,,,,,,,stim/centre.png,stim/incongRight.png,right,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,26,1,95
+1,right,1,0.632,,,,,,,stim/lower.png,stim/congLeft.png,right,180,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,4,1,95
+1.3,left,1,0.463,,,,,,,stim/both.png,stim/neutralLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,33,1,95
+0.6,right,1,0.464,,,,,,,stim/both.png,stim/congLeft.png,right,180,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,5,1,95
+1.3,right,1,0.431,,,,,,,stim/lower.png,stim/neutralLeft.png,right,180,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,36,1,95
+0.5,left,0,0.498,,,,,,,stim/blank.png,stim/incongRight.png,right,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,27,1,95
+1.1,right,0,0.43,,,,,,,stim/centre.png,stim/incongLeft.png,left,0,7457,001,2019-02-15_11h41.55.548,ANT,3.0.0b12,60,,,3,0,3,0,1,2,2,0,96,18,1,95
