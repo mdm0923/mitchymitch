@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0b12),
-    on December 10, 2018, at 13:46
+    on December 10, 2018, at 14:30
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -72,7 +72,7 @@ PracInstrucClock = core.Clock()
 pracText1 = visual.TextStim(win=win, name='pracText1',
     text='Welcome to this experiment.\n\nIn this task, you will be presented with a central arrow surrounded by arrows or blocks. The central arrow will point left or right.\n\nSometimes the flanking arrows will be pointing in the same direction as the central arrow, and sometimes the flanking arrows will point in the oppoiste direction to the central arrow.\n\neg. >>>>> or >><>>\n\nYour task is to respond to the direction of the central arrow.\n\nIf the central arrow points to the right, press the right arrow key and if the arrow points to the left, press the left arrow key.\n\nPress the space bar to continue.',
     font='Arial',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -82,7 +82,7 @@ PracInstruct2Clock = core.Clock()
 practInst2 = visual.TextStim(win=win, name='practInst2',
     text='In this task, you must respond to the direction of the centre arrow using the arrow keys.\n\nFirst, a fixation cross will appear in the centre of the screen. The fixation is sometimes followed by blocks on the screen, which may or may not\ncue the location of the target stimulus. If the blocks appear after the fixation, it means that the target will appear shortly.\n\nIf the blocks appears either above OR below the fixation cross, the target will shortly appear in that cued location.\n\nFirst there will be a practice trial, where you will recieve feedback and reaction times for each correct response.\n\nPlace your index fingers on the left and right keys ready to start, and press the spacebar to proceed.',
     font='Arial',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -127,7 +127,7 @@ feedbackClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
     text=' ',
     font='Arial',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -138,7 +138,7 @@ MainInstrucClock = core.Clock()
 mainInst = visual.TextStim(win=win, name='mainInst',
     text='That is the end of the practice trials.\n\nThe main trials will now begin. There will be 3 blocks of trials, with a rest period between each one. \n\nThe main trials involve the same instructions as before, however, you will not receive feedback on your responses.\n\nPress the spacebar to continue.',
     font='Arial',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0, 
+    units='height', pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -181,9 +181,9 @@ fixationshort = visual.ImageStim(
 # Initialize components for Routine "Rest"
 RestClock = core.Clock()
 rest = visual.TextStim(win=win, name='rest',
-    text='You have completed the first block of main trials.\n\nHave a short rest as required, and press the space bar to continue to the next block of trials when you are ready.',
+    text='You have completed a block of main trials.\n\nHave a short rest as required, and press the space bar to continue to the next block of trials when you are ready.',
     font='Arial',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -341,23 +341,23 @@ for thisComponent in PracInstruct2Components:
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=1, method='random', 
+pracLoop = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('cond.xlsx', selection='0:24'),
-    seed=None, name='trials')
-thisExp.addLoop(trials)  # add the loop to the experiment
-thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
-if thisTrial != None:
-    for paramName in thisTrial:
-        exec('{} = thisTrial[paramName]'.format(paramName))
+    seed=None, name='pracLoop')
+thisExp.addLoop(pracLoop)  # add the loop to the experiment
+thisPracLoop = pracLoop.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisPracLoop.rgb)
+if thisPracLoop != None:
+    for paramName in thisPracLoop:
+        exec('{} = thisPracLoop[paramName]'.format(paramName))
 
-for thisTrial in trials:
-    currentLoop = trials
-    # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
-    if thisTrial != None:
-        for paramName in thisTrial:
-            exec('{} = thisTrial[paramName]'.format(paramName))
+for thisPracLoop in pracLoop:
+    currentLoop = pracLoop
+    # abbreviate parameter names if possible (e.g. rgb = thisPracLoop.rgb)
+    if thisPracLoop != None:
+        for paramName in thisPracLoop:
+            exec('{} = thisPracLoop[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "fixation"-------
     t = 0
@@ -365,7 +365,7 @@ for thisTrial in trials:
     frameN = -1
     continueRoutine = True
     # update component parameters for each repeat
-    durations = np.arange(.4, 1.6, .05)  # Create durations 
+    durations = np.arange(.4, .6, .05)  # Create durations 
     shuffle(durations)  # Randomize durations 
     fixDuration  = durations[0] # Take one of the randomized durations
     # keep track of which components have finished
@@ -530,11 +530,11 @@ for thisTrial in trials:
            resp.corr = 1;  # correct non-response
         else:
            resp.corr = 0;  # failed to respond (incorrectly)
-    # store data for trials (TrialHandler)
-    trials.addData('resp.keys',resp.keys)
-    trials.addData('resp.corr', resp.corr)
+    # store data for pracLoop (TrialHandler)
+    pracLoop.addData('resp.keys',resp.keys)
+    pracLoop.addData('resp.corr', resp.corr)
     if resp.keys != None:  # we had a response
-        trials.addData('resp.rt', resp.rt)
+        pracLoop.addData('resp.rt', resp.rt)
     
     # ------Prepare to start Routine "feedback"-------
     t = 0
@@ -599,7 +599,7 @@ for thisTrial in trials:
     
     thisExp.nextEntry()
     
-# completed 1 repeats of 'trials'
+# completed 1 repeats of 'pracLoop'
 
 
 # ------Prepare to start Routine "MainInstruc"-------
@@ -682,42 +682,42 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials_3 = data.TrialHandler(nReps=3, method='random', 
+blockLoop = data.TrialHandler(nReps=3, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
-    seed=None, name='trials_3')
-thisExp.addLoop(trials_3)  # add the loop to the experiment
-thisTrial_3 = trials_3.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisTrial_3.rgb)
-if thisTrial_3 != None:
-    for paramName in thisTrial_3:
-        exec('{} = thisTrial_3[paramName]'.format(paramName))
+    seed=None, name='blockLoop')
+thisExp.addLoop(blockLoop)  # add the loop to the experiment
+thisBlockLoop = blockLoop.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisBlockLoop.rgb)
+if thisBlockLoop != None:
+    for paramName in thisBlockLoop:
+        exec('{} = thisBlockLoop[paramName]'.format(paramName))
 
-for thisTrial_3 in trials_3:
-    currentLoop = trials_3
-    # abbreviate parameter names if possible (e.g. rgb = thisTrial_3.rgb)
-    if thisTrial_3 != None:
-        for paramName in thisTrial_3:
-            exec('{} = thisTrial_3[paramName]'.format(paramName))
+for thisBlockLoop in blockLoop:
+    currentLoop = blockLoop
+    # abbreviate parameter names if possible (e.g. rgb = thisBlockLoop.rgb)
+    if thisBlockLoop != None:
+        for paramName in thisBlockLoop:
+            exec('{} = thisBlockLoop[paramName]'.format(paramName))
     
     # set up handler to look after randomisation of conditions etc
-    trials_2 = data.TrialHandler(nReps=2, method='random', 
+    mainLoop = data.TrialHandler(nReps=2, method='random', 
         extraInfo=expInfo, originPath=-1,
         trialList=data.importConditions('cond.xlsx'),
-        seed=None, name='trials_2')
-    thisExp.addLoop(trials_2)  # add the loop to the experiment
-    thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisTrial_2.rgb)
-    if thisTrial_2 != None:
-        for paramName in thisTrial_2:
-            exec('{} = thisTrial_2[paramName]'.format(paramName))
+        seed=None, name='mainLoop')
+    thisExp.addLoop(mainLoop)  # add the loop to the experiment
+    thisMainLoop = mainLoop.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisMainLoop.rgb)
+    if thisMainLoop != None:
+        for paramName in thisMainLoop:
+            exec('{} = thisMainLoop[paramName]'.format(paramName))
     
-    for thisTrial_2 in trials_2:
-        currentLoop = trials_2
-        # abbreviate parameter names if possible (e.g. rgb = thisTrial_2.rgb)
-        if thisTrial_2 != None:
-            for paramName in thisTrial_2:
-                exec('{} = thisTrial_2[paramName]'.format(paramName))
+    for thisMainLoop in mainLoop:
+        currentLoop = mainLoop
+        # abbreviate parameter names if possible (e.g. rgb = thisMainLoop.rgb)
+        if thisMainLoop != None:
+            for paramName in thisMainLoop:
+                exec('{} = thisMainLoop[paramName]'.format(paramName))
         
         # ------Prepare to start Routine "fixation"-------
         t = 0
@@ -725,7 +725,7 @@ for thisTrial_3 in trials_3:
         frameN = -1
         continueRoutine = True
         # update component parameters for each repeat
-        durations = np.arange(.4, 1.6, .05)  # Create durations 
+        durations = np.arange(.4, .6, .05)  # Create durations 
         shuffle(durations)  # Randomize durations 
         fixDuration  = durations[0] # Take one of the randomized durations
         # keep track of which components have finished
@@ -890,14 +890,14 @@ for thisTrial_3 in trials_3:
                resp.corr = 1;  # correct non-response
             else:
                resp.corr = 0;  # failed to respond (incorrectly)
-        # store data for trials_2 (TrialHandler)
-        trials_2.addData('resp.keys',resp.keys)
-        trials_2.addData('resp.corr', resp.corr)
+        # store data for mainLoop (TrialHandler)
+        mainLoop.addData('resp.keys',resp.keys)
+        mainLoop.addData('resp.corr', resp.corr)
         if resp.keys != None:  # we had a response
-            trials_2.addData('resp.rt', resp.rt)
+            mainLoop.addData('resp.rt', resp.rt)
         thisExp.nextEntry()
         
-    # completed 2 repeats of 'trials_2'
+    # completed 2 repeats of 'mainLoop'
     
     
     # ------Prepare to start Routine "Rest"-------
@@ -906,9 +906,9 @@ for thisTrial_3 in trials_3:
     frameN = -1
     continueRoutine = True
     # update component parameters for each repeat
-    key_resp_6 = event.BuilderKeyResponse()
+    restResp = event.BuilderKeyResponse()
     # keep track of which components have finished
-    RestComponents = [rest, key_resp_6]
+    RestComponents = [rest, restResp]
     for thisComponent in RestComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -927,24 +927,21 @@ for thisTrial_3 in trials_3:
             rest.frameNStart = frameN  # exact frame index
             rest.setAutoDraw(True)
         
-        # *key_resp_6* updates
-        if t >= 0.0 and key_resp_6.status == NOT_STARTED:
+        # *restResp* updates
+        if t >= 0.0 and restResp.status == NOT_STARTED:
             # keep track of start time/frame for later
-            key_resp_6.tStart = t
-            key_resp_6.frameNStart = frameN  # exact frame index
-            key_resp_6.status = STARTED
+            restResp.tStart = t
+            restResp.frameNStart = frameN  # exact frame index
+            restResp.status = STARTED
             # keyboard checking is just starting
-            win.callOnFlip(key_resp_6.clock.reset)  # t=0 on next screen flip
             event.clearEvents(eventType='keyboard')
-        if key_resp_6.status == STARTED:
+        if restResp.status == STARTED:
             theseKeys = event.getKeys(keyList=['space'])
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                key_resp_6.keys = theseKeys[-1]  # just the last key pressed
-                key_resp_6.rt = key_resp_6.clock.getTime()
                 # a response ends the routine
                 continueRoutine = False
         
@@ -969,17 +966,11 @@ for thisTrial_3 in trials_3:
     for thisComponent in RestComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    # check responses
-    if key_resp_6.keys in ['', [], None]:  # No response was made
-        key_resp_6.keys=None
-    trials_3.addData('key_resp_6.keys',key_resp_6.keys)
-    if key_resp_6.keys != None:  # we had a response
-        trials_3.addData('key_resp_6.rt', key_resp_6.rt)
     # the Routine "Rest" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
-# completed 3 repeats of 'trials_3'
+# completed 3 repeats of 'blockLoop'
 
 
 # ------Prepare to start Routine "End"-------
