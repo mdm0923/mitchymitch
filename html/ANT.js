@@ -2,7 +2,6 @@
  * Ant Test *
  ************/
 
-<<<<<<< HEAD
 import { PsychoJS } from 'https://pavlovia.org/lib/core.js';
 import * as core from 'https://pavlovia.org/lib/core.js';
 import { TrialHandler } from 'https://pavlovia.org/lib/data.js';
@@ -10,15 +9,6 @@ import { Scheduler } from 'https://pavlovia.org/lib/util.js';
 import * as util from 'https://pavlovia.org/lib/util.js';
 import * as visual from 'https://pavlovia.org/lib/visual.js';
 import { Sound } from 'https://pavlovia.org/lib/sound.js';
-=======
-import { PsychoJS } from './lib/core-3.0.0b12.js';
-import * as core from './lib/core-3.0.0b12.js';
-import { TrialHandler } from './lib/data-3.0.0b12.js';
-import { Scheduler } from './lib/util-3.0.0b12.js';
-import * as util from './lib/util-3.0.0b12.js';
-import * as visual from './lib/visual-3.0.0b12.js';
-import { Sound } from './lib/sound-3.0.0b12.js';
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
 
 // init psychoJS:
 var psychoJS = new PsychoJS({
@@ -27,7 +17,7 @@ var psychoJS = new PsychoJS({
 
 // open window:
 psychoJS.openWindow({
-  fullscr: false, //true,
+  fullscr: true,
   color: new util.Color([0, 0, 0]),
   units: 'height'
 });
@@ -337,13 +327,8 @@ function PracInstrucRoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -368,15 +353,7 @@ function PracInstrucRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
   
-=======
-  // check for quit (the Esc key)
-	if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-	}
-
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   // refresh the screen if continuing
   if (continueRoutine) {
     return Scheduler.Event.FLIP_REPEAT;
@@ -454,13 +431,8 @@ function PracInstruct2RoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -485,13 +457,6 @@ function PracInstruct2RoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-	if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-	}
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -524,12 +489,7 @@ function pracLoopLoopBegin(thisScheduler) {
     psychoJS: psychoJS,
     nReps: 1, method: TrialHandler.Method.RANDOM,
     extraInfo: expInfo, originPath: undefined,
-<<<<<<< HEAD
     trialList: TrialHandler.importConditions(psychoJS.serverManager, 'cond.xlsx', '0:24'),
-=======
-    trialList: TrialHandler.importConditions(psychoJS.serverManager, 'cond.xlsx', '0:3'),
-		// trialList: 'cond.xlsx',
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     seed: undefined, name: 'pracLoop'});
   psychoJS.experiment.addLoop(pracLoop); // add the loop to the experiment
   currentLoop = pracLoop;  // we're now the current loop
@@ -653,7 +613,7 @@ function fixationRoutineBegin() {
   }
   
   while(i<=1.6) {
-      durations.push(i);
+      durations.push(i)
       i = i + step;
   }
   
@@ -710,13 +670,6 @@ function fixationRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -812,12 +765,7 @@ function trialRoutineEachFrame() {
     resp.frameNStart = frameN;  // exact frame index
     resp.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-<<<<<<< HEAD
     psychoJS.window.callOnFlip(function() { resp.clock.reset(); }); // t = 0 on screen flip
-=======
-
-		psychoJS.window.callOnFlip(function(){ resp.clock.reset(); }); // t = 0 on screen flip
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -830,13 +778,8 @@ function trialRoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['left', 'right']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -884,13 +827,6 @@ function trialRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine && routineTimer.getTime() > 0) {
@@ -1000,13 +936,6 @@ function feedbackRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine && routineTimer.getTime() > 0) {
@@ -1075,11 +1004,7 @@ function MainInstrucRoutineEachFrame() {
     instResp.frameNStart = frameN;  // exact frame index
     instResp.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-<<<<<<< HEAD
     psychoJS.window.callOnFlip(function() { instResp.clock.reset(); }); // t = 0 on screen flip
-=======
-		psychoJS.window.callOnFlip(function(){ instResp.clock.reset(); }); // t = 0 on screen flip
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -1087,13 +1012,8 @@ function MainInstrucRoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -1120,13 +1040,6 @@ function MainInstrucRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1217,13 +1130,8 @@ function RestRoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -1248,13 +1156,6 @@ function RestRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1333,13 +1234,8 @@ function EndRoutineEachFrame() {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['y', 'n', 'left', 'right', 'space']});
     
     // check for quit:
-<<<<<<< HEAD
     if (theseKeys.indexOf('escape') > -1) {
       psychoJS.experiment.experimentEnded = true;
-=======
-		if (theseKeys.indexOf('escape') > -1) {
-        psychoJS.experiment.experimentEnded = true;
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
     }
     
     if (theseKeys.length > 0) {  // at least one key was pressed
@@ -1364,13 +1260,6 @@ function EndRoutineEachFrame() {
       continueRoutine = true;
       break;
     }
-<<<<<<< HEAD
-=======
-  // check for quit (the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-		return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-  }
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1425,17 +1314,12 @@ function importConditions(loop) {
 
 
 function quitPsychoJS(message, isCompleted) {
-<<<<<<< HEAD
   // Check for and save orphaned data
   if (Object.keys(psychoJS.experiment._thisEntry).length > 0) {
     psychoJS.experiment.nextEntry();
   }
   psychoJS.window.close();
   psychoJS.quit({message: message, isCompleted: isCompleted});
-=======
-  psychoJS.window.close();
-  psychoJS.quit({ message, isCompleted });
->>>>>>> 1bd08af49ee3a1df6f87ff8d660bc48fd004c763
 
   return Scheduler.Event.QUIT;
 }
