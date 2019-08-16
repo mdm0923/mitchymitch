@@ -1,0 +1,4 @@
+fixDuration,resp.keys,resp.corr,pracLoop.thisRepN,pracLoop.thisTrialN,pracLoop.thisN,pracLoop.thisIndex,pracLoop.ran,pracLoop.order,cue,tar,corrAns,targOrientation,participant,session,date,expName,psychopyVersion,frameRate
+1.25,,0,1,0,24,9,1,23,stim/both.png,stim/congRight.png,right,0,sss,001,2019-08-16_15h21.51.441,ANT,3.1.3,60
+1.55,,0,1,0,24,16,1,23,stim/upper.png,stim/incongLeft.png,left,0,sss,001,2019-08-16_15h21.51.441,ANT,3.1.3,60
+1.2,,0,1,0,24,6,1,23,stim/centre.png,stim/congLeft.png,right,180,sss,001,2019-08-16_15h21.51.441,ANT,3.1.3,60
