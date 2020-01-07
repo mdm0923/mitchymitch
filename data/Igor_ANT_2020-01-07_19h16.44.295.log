@@ -1,0 +1,308 @@
+0.16199994087219238	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=null, autoLog=true, size=[1280,610] )
+3.73799991607666	DATA	Keydown: Shift
+3.9830000400543213	DATA	Keydown: Alt
+4.349999904632568	DATA	Keydown: Shift
+4.552999973297119	DATA	Keydown: Ш
+5.053999900817871	DATA	Keydown: Backspace
+5.299999952316284	DATA	Keydown: Shift
+5.555999994277954	DATA	Keydown: Alt
+5.740000009536743	DATA	Keydown: Shift
+5.968999862670898	DATA	Keydown: I
+6.185999870300293	DATA	Keydown: g
+6.353999853134155	DATA	Keydown: g
+7.134000062942505	DATA	Keydown: Backspace
+7.32099986076355	DATA	Keydown: o
+7.838000059127808	DATA	Keydown: e
+8.522000074386597	DATA	Keydown: Backspace
+8.654000043869019	DATA	Keydown: r
+11.753999948501587	EXP	Created pracText1 = TextStim( name=pracText1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to this experiment.
+
+In this task, you wil~, font=Arial, color=#FFFFFF, contrast=1, height=0.04, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.766999959945679	EXP	Created practInst2 = TextStim( name=practInst2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=In this task, you must respond to the direction of~, font=Arial, color=#FFFFFF, contrast=1, height=0.04, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.777999877929688	EXP	Created image = ImageStim( name=image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+11.786999940872192	EXP	Created cues = ImageStim( name=cues, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=null, flipHoriz=null, flipVert=null )
+11.79099988937378	EXP	Created target = ImageStim( name=target, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=1, opacity=1, pos=[0,0], size=[0.25,0.25], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+11.796000003814697	EXP	Created fixationshort = ImageStim( name=fixationshort, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-3, flipHoriz=null, flipVert=null )
+11.79699993133545	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text= , font=Arial, color=#FFFFFF, contrast=1, height=0.04, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.797999858856201	EXP	Created mainInst = TextStim( name=mainInst, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=That is the end of the practice trials.
+
+The main ~, font=Arial, color=#FFFFFF, contrast=1, height=0.04, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.800999879837036	EXP	Created image = ImageStim( name=image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+11.803999900817871	EXP	Created cues = ImageStim( name=cues, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=null, flipHoriz=null, flipVert=null )
+11.805999994277954	EXP	Created target = ImageStim( name=target, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=1, opacity=1, pos=[0,0], size=[0.25,0.25], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+11.809000015258789	EXP	Created fixationshort = ImageStim( name=fixationshort, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.25,0.25], image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-3, flipHoriz=null, flipVert=null )
+11.810999870300293	EXP	Created rest = TextStim( name=rest, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=You have completed a block of main trials.
+
+Have a~, font=Arial, color=#FFFFFF, contrast=1, height=0.04, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.812000036239624	EXP	Created endText = TextStim( name=endText, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=That is the end of the main trial. 
+
+Thank you for~, font=Arial, color=#FFFFFF, contrast=1, height=0.03, bold=null, italic=null, alignHoriz=center, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+11.94700002670288	EXP	pracText1: units = "height"
+11.94700002670288	EXP	pracText1: ori = 0
+11.94700002670288	EXP	pracText1: opacity = 1
+11.94700002670288	EXP	pracText1: pos = [0,0]
+11.94700002670288	EXP	pracText1: size = undefined
+11.94700002670288	EXP	pracText1: text = "Welcome to this experiment.\n\nIn this task, you will be presented with a central arrow surrounded by arrows or blocks. The central arrow will point left or right.\n\nSometimes the flanking arrows will be pointing in the same direction as the central arrow, and sometimes the flanking arrows will point in the oppoiste direction to the central arrow.\n\neg. >>>>> or >><>>\n\nYour task is to respond to the direction of the central arrow.\n\nIf the central arrow points to the right, press the right arrow key and if the arrow points to the left, press the left arrow key.\n\nPress the space bar to continue."
+11.94700002670288	EXP	pracText1: font = "Arial"
+11.94700002670288	EXP	pracText1: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	pracText1: contrast = 1
+11.94700002670288	EXP	pracText1: height = 0.04
+11.94700002670288	EXP	pracText1: bold = false
+11.94700002670288	EXP	pracText1: italic = false
+11.94700002670288	EXP	pracText1: alignHoriz = "center"
+11.94700002670288	EXP	pracText1: alignVert = "center"
+11.94700002670288	EXP	pracText1: wrapWidth = 1
+11.94700002670288	EXP	pracText1: flipHoriz = false
+11.94700002670288	EXP	pracText1: flipVert = false
+11.94700002670288	EXP	practInst2: units = "height"
+11.94700002670288	EXP	practInst2: ori = 0
+11.94700002670288	EXP	practInst2: opacity = 1
+11.94700002670288	EXP	practInst2: pos = [0,0]
+11.94700002670288	EXP	practInst2: size = undefined
+11.94700002670288	EXP	practInst2: text = "In this task, you must respond to the direction of the centre arrow using the arrow keys.\n\nFirst, a fixation cross will appear in the centre of the screen. The fixation is sometimes followed by blocks on the screen, which may or may not\ncue the location of the target stimulus. If the blocks appear after the fixation, it means that the target will appear shortly.\n\nIf the blocks appears either above OR below the fixation cross, the target will shortly appear in that cued location.\n\nFirst there will be a practice trial, where you will recieve feedback and reaction times for each correct response.\n\nPlace your index fingers on the left and right keys ready to start, and press the spacebar to proceed."
+11.94700002670288	EXP	practInst2: font = "Arial"
+11.94700002670288	EXP	practInst2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	practInst2: contrast = 1
+11.94700002670288	EXP	practInst2: height = 0.04
+11.94700002670288	EXP	practInst2: bold = false
+11.94700002670288	EXP	practInst2: italic = false
+11.94700002670288	EXP	practInst2: alignHoriz = "center"
+11.94700002670288	EXP	practInst2: alignVert = "center"
+11.94700002670288	EXP	practInst2: wrapWidth = 1
+11.94700002670288	EXP	practInst2: flipHoriz = false
+11.94700002670288	EXP	practInst2: flipVert = false
+11.94700002670288	EXP	image: units = "height"
+11.94700002670288	EXP	image: ori = 0
+11.94700002670288	EXP	image: opacity = 1
+11.94700002670288	EXP	image: pos = [0,0]
+11.94700002670288	EXP	image: size = [0.25,0.25]
+11.94700002670288	EXP	image: image = {}
+11.94700002670288	EXP	image: mask = undefined
+11.94700002670288	EXP	image: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	image: contrast = 1
+11.94700002670288	EXP	image: texRes = 128
+11.94700002670288	EXP	image: interpolate = true
+11.94700002670288	EXP	image: depth = -1
+11.94700002670288	EXP	image: flipHoriz = false
+11.94700002670288	EXP	image: flipVert = false
+11.94700002670288	EXP	cues: units = "height"
+11.94700002670288	EXP	cues: ori = 0
+11.94700002670288	EXP	cues: opacity = 1
+11.94700002670288	EXP	cues: pos = [0,0]
+11.94700002670288	EXP	cues: size = [0.25,0.25]
+11.94700002670288	EXP	cues: image = undefined
+11.94700002670288	EXP	cues: mask = undefined
+11.94700002670288	EXP	cues: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	cues: contrast = 1
+11.94700002670288	EXP	cues: texRes = 128
+11.94700002670288	EXP	cues: interpolate = true
+11.94700002670288	EXP	cues: depth = 0
+11.94700002670288	EXP	cues: flipHoriz = false
+11.94700002670288	EXP	cues: flipVert = false
+11.94700002670288	EXP	target: units = "height"
+11.94700002670288	EXP	target: ori = 1
+11.94700002670288	EXP	target: opacity = 1
+11.94700002670288	EXP	target: pos = [0,0]
+11.94700002670288	EXP	target: size = [0.25,0.25]
+11.94700002670288	EXP	target: image = undefined
+11.94700002670288	EXP	target: mask = undefined
+11.94700002670288	EXP	target: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	target: contrast = 1
+11.94700002670288	EXP	target: texRes = 128
+11.94700002670288	EXP	target: interpolate = true
+11.94700002670288	EXP	target: depth = -1
+11.94700002670288	EXP	target: flipHoriz = false
+11.94700002670288	EXP	target: flipVert = false
+11.94700002670288	EXP	fixationshort: units = "height"
+11.94700002670288	EXP	fixationshort: ori = 0
+11.94700002670288	EXP	fixationshort: opacity = 1
+11.94700002670288	EXP	fixationshort: pos = [0,0]
+11.94700002670288	EXP	fixationshort: size = [0.25,0.25]
+11.94700002670288	EXP	fixationshort: image = {}
+11.94700002670288	EXP	fixationshort: mask = undefined
+11.94700002670288	EXP	fixationshort: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	fixationshort: contrast = 1
+11.94700002670288	EXP	fixationshort: texRes = 128
+11.94700002670288	EXP	fixationshort: interpolate = true
+11.94700002670288	EXP	fixationshort: depth = -3
+11.94700002670288	EXP	fixationshort: flipHoriz = false
+11.94700002670288	EXP	fixationshort: flipVert = false
+11.94700002670288	EXP	text: units = "height"
+11.94700002670288	EXP	text: ori = 0
+11.94700002670288	EXP	text: opacity = 1
+11.94700002670288	EXP	text: pos = [0,0]
+11.94700002670288	EXP	text: size = undefined
+11.94700002670288	EXP	text: text = " "
+11.94700002670288	EXP	text: font = "Arial"
+11.94700002670288	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	text: contrast = 1
+11.94700002670288	EXP	text: height = 0.04
+11.94700002670288	EXP	text: bold = false
+11.94700002670288	EXP	text: italic = false
+11.94700002670288	EXP	text: alignHoriz = "center"
+11.94700002670288	EXP	text: alignVert = "center"
+11.94700002670288	EXP	text: wrapWidth = 1
+11.94700002670288	EXP	text: flipHoriz = false
+11.94700002670288	EXP	text: flipVert = false
+11.94700002670288	EXP	mainInst: units = "height"
+11.94700002670288	EXP	mainInst: ori = 0
+11.94700002670288	EXP	mainInst: opacity = 1
+11.94700002670288	EXP	mainInst: pos = [0,0]
+11.94700002670288	EXP	mainInst: size = undefined
+11.94700002670288	EXP	mainInst: text = "That is the end of the practice trials.\n\nThe main trials will now begin. There will be 3 blocks of trials, with a rest period between each one. \n\nThe main trials involve the same instructions as before, however, you will not receive feedback on your responses.\n\nPress the spacebar to continue."
+11.94700002670288	EXP	mainInst: font = "Arial"
+11.94700002670288	EXP	mainInst: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	mainInst: contrast = 1
+11.94700002670288	EXP	mainInst: height = 0.04
+11.94700002670288	EXP	mainInst: bold = false
+11.94700002670288	EXP	mainInst: italic = false
+11.94700002670288	EXP	mainInst: alignHoriz = "center"
+11.94700002670288	EXP	mainInst: alignVert = "center"
+11.94700002670288	EXP	mainInst: wrapWidth = 1
+11.94700002670288	EXP	mainInst: flipHoriz = false
+11.94700002670288	EXP	mainInst: flipVert = false
+11.94700002670288	EXP	image: units = "height"
+11.94700002670288	EXP	image: ori = 0
+11.94700002670288	EXP	image: opacity = 1
+11.94700002670288	EXP	image: pos = [0,0]
+11.94700002670288	EXP	image: size = [0.25,0.25]
+11.94700002670288	EXP	image: image = {}
+11.94700002670288	EXP	image: mask = undefined
+11.94700002670288	EXP	image: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	image: contrast = 1
+11.94700002670288	EXP	image: texRes = 128
+11.94700002670288	EXP	image: interpolate = true
+11.94700002670288	EXP	image: depth = -1
+11.94700002670288	EXP	image: flipHoriz = false
+11.94700002670288	EXP	image: flipVert = false
+11.94700002670288	EXP	cues: units = "height"
+11.94700002670288	EXP	cues: ori = 0
+11.94700002670288	EXP	cues: opacity = 1
+11.94700002670288	EXP	cues: pos = [0,0]
+11.94700002670288	EXP	cues: size = [0.25,0.25]
+11.94700002670288	EXP	cues: image = undefined
+11.94700002670288	EXP	cues: mask = undefined
+11.94700002670288	EXP	cues: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	cues: contrast = 1
+11.94700002670288	EXP	cues: texRes = 128
+11.94700002670288	EXP	cues: interpolate = true
+11.94700002670288	EXP	cues: depth = 0
+11.94700002670288	EXP	cues: flipHoriz = false
+11.94700002670288	EXP	cues: flipVert = false
+11.94700002670288	EXP	target: units = "height"
+11.94700002670288	EXP	target: ori = 1
+11.94700002670288	EXP	target: opacity = 1
+11.94700002670288	EXP	target: pos = [0,0]
+11.94700002670288	EXP	target: size = [0.25,0.25]
+11.94700002670288	EXP	target: image = undefined
+11.94700002670288	EXP	target: mask = undefined
+11.94700002670288	EXP	target: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	target: contrast = 1
+11.94700002670288	EXP	target: texRes = 128
+11.94700002670288	EXP	target: interpolate = true
+11.94700002670288	EXP	target: depth = -1
+11.94700002670288	EXP	target: flipHoriz = false
+11.94700002670288	EXP	target: flipVert = false
+11.94700002670288	EXP	fixationshort: units = "height"
+11.94700002670288	EXP	fixationshort: ori = 0
+11.94700002670288	EXP	fixationshort: opacity = 1
+11.94700002670288	EXP	fixationshort: pos = [0,0]
+11.94700002670288	EXP	fixationshort: size = [0.25,0.25]
+11.94700002670288	EXP	fixationshort: image = {}
+11.94700002670288	EXP	fixationshort: mask = undefined
+11.94700002670288	EXP	fixationshort: color = {"_rgb":[1,1,1]}
+11.94700002670288	EXP	fixationshort: contrast = 1
+11.94700002670288	EXP	fixationshort: texRes = 128
+11.94700002670288	EXP	fixationshort: interpolate = true
+11.94700002670288	EXP	fixationshort: depth = -3
+11.94700002670288	EXP	fixationshort: flipHoriz = false
+11.94700002670288	EXP	fixationshort: flipVert = false
+11.94700002670288	EXP	rest: units = "height"
+11.94700002670288	EXP	rest: ori = 0
+11.94700002670288	EXP	rest: opacity = 1
+11.94700002670288	EXP	rest: pos = [0,0]
+11.94700002670288	EXP	rest: size = undefined
+11.94700002670288	EXP	rest: text = "You have completed a block of main trials.\n\nHave a short rest as required, and press the space bar to continue to the next block of trials when you are ready."
+11.94700002670288	EXP	rest: font = "Arial"
+11.94700002670288	EXP	rest: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	rest: contrast = 1
+11.94700002670288	EXP	rest: height = 0.04
+11.94700002670288	EXP	rest: bold = false
+11.94700002670288	EXP	rest: italic = false
+11.94700002670288	EXP	rest: alignHoriz = "center"
+11.94700002670288	EXP	rest: alignVert = "center"
+11.94700002670288	EXP	rest: wrapWidth = 1
+11.94700002670288	EXP	rest: flipHoriz = false
+11.94700002670288	EXP	rest: flipVert = false
+11.94700002670288	EXP	endText: units = "height"
+11.94700002670288	EXP	endText: ori = 0
+11.94700002670288	EXP	endText: opacity = 1
+11.94700002670288	EXP	endText: pos = [0,0]
+11.94700002670288	EXP	endText: size = undefined
+11.94700002670288	EXP	endText: text = "That is the end of the main trial. \n\nThank you for taking part in this experiment.\n\nPress any key to exit."
+11.94700002670288	EXP	endText: font = "Arial"
+11.94700002670288	EXP	endText: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+11.94700002670288	EXP	endText: contrast = 1
+11.94700002670288	EXP	endText: height = 0.03
+11.94700002670288	EXP	endText: bold = false
+11.94700002670288	EXP	endText: italic = false
+11.94700002670288	EXP	endText: alignHoriz = "center"
+11.94700002670288	EXP	endText: alignVert = "center"
+11.94700002670288	EXP	endText: wrapWidth = 1
+11.94700002670288	EXP	endText: flipHoriz = false
+11.94700002670288	EXP	endText: flipVert = false
+11.94700002670288	EXP	pracText1: autoDraw = true
+24.217999935150146	DATA	Keydown:  
+24.234999895095825	EXP	pracText1: autoDraw = false
+24.234999895095825	EXP	practInst2: autoDraw = true
+39.2739999294281	DATA	Keydown:  
+39.355000019073486	EXP	practInst2: autoDraw = false
+39.355000019073486	EXP	image: autoDraw = true
+40.10800004005432	EXP	image: autoDraw = false
+40.10800004005432	EXP	image: autoDraw = false
+40.10800004005432	EXP	cues: image = {}
+40.10800004005432	EXP	target: ori = 0
+40.10800004005432	EXP	target: image = {}
+40.10800004005432	EXP	cues: autoDraw = true
+40.10800004005432	EXP	fixationshort: autoDraw = true
+40.204999923706055	EXP	cues: autoDraw = false
+40.611000061035156	EXP	target: autoDraw = true
+40.611000061035156	EXP	fixationshort: autoDraw = false
+41.45099997520447	DATA	Keydown: ArrowRight
+41.46000003814697	EXP	cues: autoDraw = false
+41.46000003814697	EXP	target: autoDraw = false
+41.46000003814697	EXP	fixationshort: autoDraw = false
+41.46000003814697	EXP	text: text = "Correct! RT=0.841"
+41.46000003814697	EXP	text: autoDraw = true
+42.45799994468689	EXP	text: autoDraw = false
+42.45799994468689	EXP	text: autoDraw = false
+42.45799994468689	EXP	mainInst: autoDraw = true
+50.74600005149841	DATA	Keydown:  
+50.776999950408936	EXP	mainInst: autoDraw = false
+50.776999950408936	EXP	image: autoDraw = true
+52.174999952316284	EXP	image: autoDraw = false
+52.174999952316284	EXP	image: autoDraw = false
+52.174999952316284	EXP	cues: image = {}
+52.174999952316284	EXP	target: ori = 0
+52.174999952316284	EXP	target: image = {}
+52.174999952316284	EXP	cues: autoDraw = true
+52.174999952316284	EXP	fixationshort: autoDraw = true
+52.27300000190735	EXP	cues: autoDraw = false
+52.675999879837036	EXP	target: autoDraw = true
+52.675999879837036	EXP	fixationshort: autoDraw = false
+54.37899994850159	EXP	target: autoDraw = false
+54.37899994850159	EXP	cues: autoDraw = false
+54.37899994850159	EXP	target: autoDraw = false
+54.37899994850159	EXP	fixationshort: autoDraw = false
+54.37899994850159	EXP	rest: autoDraw = true
+57.02900004386902	DATA	Keydown: ArrowLeft
+57.331000089645386	DATA	Keydown: ArrowRight
+57.79900002479553	DATA	Keydown: ArrowUp
+58.20099997520447	DATA	Keydown: ArrowDown
+58.51699995994568	DATA	Keydown: ArrowLeft
+58.6949999332428	DATA	Keydown: ArrowRight
+59.14299988746643	DATA	Keydown: ArrowLeft
+63.062000036239624	DATA	Keydown:  
+63.085999965667725	EXP	rest: autoDraw = false
+63.085999965667725	EXP	endText: autoDraw = true
+66.88599991798401	DATA	Keydown:  
