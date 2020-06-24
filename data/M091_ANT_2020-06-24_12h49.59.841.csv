@@ -1,0 +1,10 @@
+fixDuration,resp.keys,resp.corr,pracLoop.thisRepN,pracLoop.thisTrialN,pracLoop.thisN,pracLoop.thisIndex,pracLoop.ran,pracLoop.order,cue,tar,corrAns,targOrientation,participant,session,date,expName,psychopyVersion,frameRate,resp.rt
+0.8,,0,1,0,24,17,1,23,stim/both.png,stim/incongLeft.png,left,0,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,
+1.35,,0,1,0,24,14,1,23,stim/centre.png,stim/congRight.png,left,180,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,
+1.15,,0,1,0,24,8,1,23,stim/upper.png,stim/congRight.png,right,0,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,
+0.75,,0,1,0,24,22,1,23,stim/centre.png,stim/incongLeft.png,right,180,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,
+0.75,right,1,1,0,24,5,1,23,stim/both.png,stim/congLeft.png,right,180,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,0.67599988
+0.7,,0,1,0,24,3,1,23,stim/blank.png,stim/congLeft.png,left,0,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,
+1.3,right,1,1,0,24,9,1,23,stim/both.png,stim/congRight.png,right,0,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,0.45600009
+0.7,right,1,1,0,24,6,1,23,stim/centre.png,stim/congLeft.png,right,180,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,0.474000216
+1.45,right,1,1,0,24,4,1,23,stim/lower.png,stim/congLeft.png,right,180,M091,001,2020-06-24_12h49.59.841,ANT,3.1.3,60,0.457999945
